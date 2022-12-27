@@ -13,6 +13,9 @@
 		89DAE64E294069E700C31588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DAE64C294069E700C31588 /* Main.storyboard */; };
 		89DAE650294069E900C31588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DAE64F294069E900C31588 /* Assets.xcassets */; };
 		89DAE653294069E900C31588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DAE651294069E900C31588 /* LaunchScreen.storyboard */; };
+		89DAE65F29406C2400C31588 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAE65E29406C2400C31588 /* CustomLabel.swift */; };
+		89DAE66129406C7100C31588 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAE66029406C7100C31588 /* CustomButton.swift */; };
+		89DAE66329406CB400C31588 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAE66229406CB400C31588 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		89DAE64F294069E900C31588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89DAE652294069E900C31588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89DAE654294069E900C31588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DAE65E29406C2400C31588 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		89DAE66029406C7100C31588 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		89DAE66229406CB400C31588 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		89DAE645294069E700C31588 /* CustomViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				89DAE65D29406A1300C31588 /* resources */,
+				89DAE65C29406A0600C31588 /* controller */,
+				89DAE65B294069FF00C31588 /* view */,
+				89DAE65A294069F600C31588 /* model */,
 				89DAE646294069E700C31588 /* AppDelegate.swift */,
 				89DAE648294069E700C31588 /* SceneDelegate.swift */,
-				89DAE64A294069E700C31588 /* ViewController.swift */,
 				89DAE64C294069E700C31588 /* Main.storyboard */,
 				89DAE64F294069E900C31588 /* Assets.xcassets */,
 				89DAE651294069E900C31588 /* LaunchScreen.storyboard */,
 				89DAE654294069E900C31588 /* Info.plist */,
 			);
 			path = CustomViewDemo;
+			sourceTree = "<group>";
+		};
+		89DAE65A294069F600C31588 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		89DAE65B294069FF00C31588 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				89DAE65E29406C2400C31588 /* CustomLabel.swift */,
+				89DAE66029406C7100C31588 /* CustomButton.swift */,
+				89DAE66229406CB400C31588 /* CustomTextField.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		89DAE65C29406A0600C31588 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				89DAE64A294069E700C31588 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		89DAE65D29406A1300C31588 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89DAE66129406C7100C31588 /* CustomButton.swift in Sources */,
 				89DAE64B294069E700C31588 /* ViewController.swift in Sources */,
 				89DAE647294069E700C31588 /* AppDelegate.swift in Sources */,
+				89DAE66329406CB400C31588 /* CustomTextField.swift in Sources */,
 				89DAE649294069E700C31588 /* SceneDelegate.swift in Sources */,
+				89DAE65F29406C2400C31588 /* CustomLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
